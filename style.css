@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    padding: 30px 10px;
+    position: sticky;
+    top: 0;
+}
+.nav-links{
+  
+        display: flex;
+        list-style-type: none;
+        gap: 30px;
+        font-size: 18px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+
+
+.logo span {
+    font-size: 19px;
+
+ 
+
+  
+}
+    button {
+        padding: 5px 15px;
+        font-size: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        background-color: rgb(121, 121, 121);
+        color: white;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+
+    .parallex {
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+    .img {
+        background-image: url('https://images.unsplash.com/photo-1558985040-ed4d5029dd50?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzODkxNjg&ixlib=rb-1.2.1&q=80&quot');
+    }
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-shadow: 4px 5px 20px black;
+        padding-top: 250px;
+
+    }
+
+    .hover-button {
+
+        background-color: red;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .hover-button:hover {
+        background-color: red;
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+
+
+    .para {
+        padding: 25px 20px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 18px;
+        background-color: rgb(46, 46, 46);
+        color: white;
+
+
+    }
+
+    .img2 {
+        background-image: url('https://images.unsplash.com/photo-1610128114197-485d933885c5?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTA2Nzc&ixlib=rb-1.2.1&q=80&quot');
+    }
+
+    .img3 {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThekzLpdHeOcQr6IQJ1Rm7xVC1kiR2VH2RAw&s');
+    }
+
+    .img4 {
+        background-image: url('https://images.unsplash.com/photo-1543722530-d2c3201371e7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTExOTg&ixlib=rb-1.2.1&q=80&quot');
+    }
